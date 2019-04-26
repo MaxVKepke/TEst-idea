@@ -25,13 +25,14 @@ class TestAddIdea(BaseTest):
         base_page.click(cityes)
         list_cityes = base_page.check_is_all_elements(base_page.list_cities)
         some_cityes = random.choice(list_cityes)
-        print(str(type(list_cityes)) + '------------00000---------00000')
+
         some_cityes.click()
+
 
         base_page.click(addres)
 
 
-        time.sleep(3)
+        time.sleep(5)
 
 
 
